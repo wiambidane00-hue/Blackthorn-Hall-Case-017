@@ -62,7 +62,7 @@ The investigation introduces four suspects:
 ### Investigation Timeline
 ![Investigation Timeline](Screenshot-timeline.png)
 
-### Investigation Aacusation
+### Investigation Accusation
 ![Investigation Accusation](Screenshot-accusation.png)
 
 ## 🚀 How to Run the Project
