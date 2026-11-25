@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackthorn Hall | Case 017</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+    <!-- Sidebar Toggle -->
+    <button id="sidebar-toggle" onclick="toggleSidebar()">☰</button>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="sidebar-divider"></div>
+
+        <p class="menu-label">CASE NAVIGATION</p>
+
+        <nav class="sidebar-links">
+            <a class="active" data-page="overview" href="#">⌂ <span>Overview</span></a>
+            <a data-page="victim" href="#">01 <span>Victim</span></a>
+            <a data-page="evidence" href="#">02 <span>Evidence</span></a>
+            <a data-page="suspects" href="#">03 <span>Suspects</span></a>
+            <a data-page="timeline" href="#">04 <span>Timeline</span></a>
+            <a data-page="accusation" href="#">05 <span>Accusation</span></a>
+        </nav>
+
+        <!-- Music Player -->
+        <div class="music-control">
+            <p>CASE ATMOSPHERE</p>
+
+            <button id="music-toggle" type="button">
+                ♫ Enable Music
+            </button>
+
+            <audio id="background-music" loop>
+                <source src="detective-music.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+
+        <div class="sidebar-bottom">
+            CONFIDENTIAL • RESTRICTED ACCESS
+        </div>
+    </aside>
+
+    <!-- Main Website -->
+    <div class="page-content">
+
+        <header class="navbar">
+            <h2 class="logo">
+                BLACKTHORN <span class="case-number">017</span>
+            </h2>
+        </header>
+
+        <!-- PAGE 1: OVERVIEW -->
+        <div class="page-view active" data-view="overview" id="page-overview">
+            <main>
+                <section class="hero">
+                    <p class="case-number">CONFIDENTIAL CASE FILE 017</p>
+
+                    <h1>The Last Hour at<br>Blackthorn Hall</h1>
+
+                    <p class="intro">
+                        A locked archive. A missing manuscript page.
+                        Four suspects. One truth hidden in the evidence.
+                    </p>
+
+                    <a class="main-button" data-page="victim" href="#">
+                        Begin Investigation
+                    </a>
+
+                    <p class="status">CASE STATUS: UNSOLVED</p>
+                </section>
+
+            
+            </main>
+        </div>
+
+        <!-- PAGE 2: VICTIM -->
+        <div class="page-view" data-view="victim" id="page-victim">
+            <main>
+
+                <section class="content-section victim-heading">
+                    <p class="case-number">CASE FILE 017 / SUBJECT RECORD</p>
+                    <h1>Victim Profile</h1>
+                    <p>Personal information and background of Dr. Adrian Vale.</p>
+                </section>
+
+                <section class="content-section">
+                    <div class="victim-profile">
+                        <p class="tag">PERSONAL DOSSIER • FILE 017</p>
+                        <h2>Dr. Adrian Vale</h2>
+
+                        <p class="victim-role">
+                            University Historian and Researcher
+                        </p>
+
+                        <div class="profile-divider"></div>
+
+                        <div class="personal-info">
+                            <div class="info-row"><span>Full Name</span><strong>Dr. Adrian Vale</strong></div>
+                            <div class="info-row"><span>Age</span><strong>54 years old</strong></div>
+                            <div class="info-row"><span>Occupation</span><strong>University Historian</strong></div>
+                            <div class="info-row"><span>Specialization</span><strong>Historical Research and Archives</strong></div>
+                            <div class="info-row"><span>Workplace</span><strong>University Historical Department</strong></div>
+                            <div class="info-row"><span>Last Known Location</span><strong>University Archive</strong></div>
+                            <div class="info-row"><span>Date of Death</span><strong>October 14</strong></div>
+                            <div class="info-row"><span>Time Discovered</span><strong>9:12 PM</strong></div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="content-section">
+                    <h2>01. Biography</h2>
+
+                    <p>
+                        Dr. Adrian Vale was a respected university
+                        historian who dedicated much of his career
+                        to researching and preserving historical records.
+                    </p>
+
+                    <p>
+                        He was particularly interested in the authenticity
+                        of historical documents and the accuracy of
+                        official records.
+                    </p>
+
+                    <p>
+                        His work required patience, precision, and
+                        a strong attention to detail.
+                    </p>
+                </section>
+
+                <section class="content-section">
+                    <h2>02. Professional Background</h2>
+
+                    <p>
+                        Throughout his career, Adrian worked extensively
+                        with historical manuscripts, archival documents,
+                        and university records.
+                    </p>
+
+                    <p>
+                        His most recent research focused on a celebrated
+                        historical discovery. During this investigation,
+                        he identified inconsistencies in the official
+                        documentation.
+                    </p>
+
+                    <p>
+                        Shortly before his death, he had been preparing
+                        to publish his findings.
+                    </p>
+                </section>
+
+                <section class="content-section">
+                    <h2>03. Circumstances of Death</h2>
+
+                    <div class="victim-profile">
+                        <div class="info-row"><span>Location</span><strong>University Archive</strong></div>
+                        <div class="info-row"><span>Date</span><strong>October 14</strong></div>
+                        <div class="info-row"><span>Time Discovered</span><strong>9:12 PM</strong></div>
+                        <div class="info-row"><span>Location Condition</span><strong>Archive found locked</strong></div>
+                        <div class="info-row"><span>Case Status</span><strong class="case-status">Unsolved</strong></div>
+                    </div>
+
+                    <p class="victim-note">
+                        The exact circumstances surrounding Adrian's
+                        death remain under investigation.
+                    </p>
+                </section>
+
+                <section class="case-summary">
+                    <h2>End of Personal Record</h2>
+
+                    <p>
+                        This document contains the known personal
+                        and professional information concerning
+                        Dr. Adrian Vale.
+                    </p>
+
+                    <p>
+                        Further information must be established
+                        through the investigation.
+                    </p>
+                </section>
+
+                <section class="page-navigation">
+                    <a class="previous-button" data-page="overview" href="#">← Previous Page</a>
+                    <a class="next-button" data-page="evidence" href="#">Next Page →</a>
+                </section>
+
+            </main>
+        </div>
+
+        <!-- PAGE 3: EVIDENCE -->
+        <div class="page-view" data-view="evidence" id="page-evidence">
+            <main class="content-section">
+                <h1>Evidence Archive</h1>
+                <p>Examine the exhibits before reaching a conclusion.</p>
+
+                <div class="card-grid" id="evidence-list"></div>
+
+                <div class="modal hidden" id="evidence-modal">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 id="modal-title">Exhibit Details</h3>
+                        </div>
+
+                        <div class="modal-body">
+                            <p id="modal-description"></p>
+                            <p id="modal-progress"></p>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button id="modal-ok">Close</button>
+                        </div>
+                    </div>
+                </div>
+
+                <section class="page-navigation">
+                    <a class="previous-button" data-page="victim" href="#">← Previous Page</a>
+                    <a class="next-button" data-page="suspects" href="#">Next Page →</a>
+                </section>
+            </main>
+        </div>
+
+        <!-- PAGE 4: SUSPECTS -->
+        <div class="page-view" data-view="suspects" id="page-suspects">
+            <main class="content-section">
+                <h1>Suspect Dossiers</h1>
+                <p>Every suspect has something to explain.</p>
+
+                <div class="card-grid" id="suspect-list"></div>
+
+                <div class="modal hidden" id="suspect-modal">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 id="suspect-modal-title"></h3>
+                        </div>
+
+                        <div class="modal-body">
+                            <p id="suspect-modal-description"></p>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button id="suspect-modal-ok">Close</button>
+                        </div>
+                    </div>
+                </div>
+
+                <section class="page-navigation">
+                    <a class="previous-button" data-page="evidence" href="#">← Previous Page</a>
+                    <a class="next-button" data-page="timeline" href="#">Next Page →</a>
+                </section>
+            </main>
+        </div>
+
+        <!-- PAGE 5: TIMELINE -->
+        <div class="page-view" data-view="timeline" id="page-timeline">
+            <main class="content-section">
+                <h1>Timeline of the Night</h1>
+                <p>Review the events leading up to Adrian Vale's death.</p>
+
+                <div id="timeline-list"></div>
+
+                <section class="page-navigation">
+                    <a class="previous-button" data-page="suspects" href="#">← Previous Page</a>
+                    <a class="next-button" data-page="accusation" href="#">Next Page →</a>
+                </section>
+            </main>
+        </div>
+
+        <!-- PAGE 6: ACCUSATION -->
+        <div class="page-view" data-view="accusation" id="page-accusation">
+            <main>
+                <section class="content-section" id="accusation">
+                    <p class="case-number">CASE FILE 017</p>
+                    <h1>Final Accusation</h1>
+
+                    <p>
+                        The investigation has reached its final stage.
+                        Review the evidence, examine the suspects, and
+                        decide who you believe is responsible for
+                        Dr. Adrian Vale's death.
+                    </p>
+
+                    <div class="case-summary">
+                        <h2>Your Final Decision</h2>
+
+                        <p>
+                            Select the person you accuse and explain
+                            how the evidence supports your conclusion.
+                            A name alone is not enough. Your reasoning
+                            must connect the clues.
+                        </p>
+                    </div>
+
+                    <form id="accusation-form" onsubmit="event.preventDefault(); submitAccusation();">
+
+                        <label for="suspect-choice">Who do you accuse?</label>
+
+                        <select id="suspect-choice" required>
+                            <option value="">Select a suspect</option>
+                            <option value="eleanor">Eleanor Wren - Head Archivist</option>
+                            <option value="marcus">Professor Marcus Thorne - Senior Historian</option>
+                            <option value="sofia">Dr. Sofia Bell - Restoration Specialist</option>
+                            <option value="daniel">Daniel Cross - IT Technician</option>
+                        </select>
+
+                        <label for="reasoning">Explain your accusation</label>
+
+                        <p>
+                            Use the evidence to explain the suspect's
+                            possible motive, their connection to the
+                            events, and how the timeline supports your theory.
+                        </p>
+
+                        <textarea
+                            id="reasoning"
+                            placeholder="Explain why you believe this person is responsible. Connect the evidence and describe how the events may have happened..."
+                            required
+                        ></textarea>
+
+                        <button type="submit">Submit Final Accusation</button>
+                    </form>
+
+                    <div id="result"></div>
+                </section>
+
+                <section class="page-navigation">
+                    <a class="previous-button" data-page="timeline" href="#">← Previous Page</a>
+                </section>
+            </main>
+        </div>
+
+        <footer>
+            BLACKTHORN HALL • CASE FILE 017<br>
+            CONFIDENTIAL INVESTIGATION RECORD<br>
+            This was wiwi
+        </footer>
+
+    </div>
+
+    <script src="script1.js"></script>
+</body>
+</html>
