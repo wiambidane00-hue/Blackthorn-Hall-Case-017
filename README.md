@@ -51,19 +51,19 @@ The investigation introduces four suspects:
 ## 📸 Project Screenshots
 
 ### Main Investigation Interface
-![Blackthorn Hall Homepage](screenshot-overview.png)
+![Blackthorn Hall Homepage](Screenshot-overview.png)
 
 ### Evidence Examination
-![Evidence Examination](screenshot-evidence.png)
+![Evidence Examination](Screenshot-evidence.png)
 
 ### Suspect Dossiers
-![Suspect Profiles](screenshot-suspect.png)
+![Suspect Profiles](Screenshot-suspect.png)
 
 ### Investigation Timeline
-![Investigation Timeline](screenshot-timeline.png)
+![Investigation Timeline](Screenshot-timeline.png)
 
 ### Investigation Aacusation
-![Investigation Accusation](screenshot-accusation.png)
+![Investigation Accusation](Screenshot-accusation.png)
 
 ## 🚀 How to Run the Project
 
